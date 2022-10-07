@@ -9,25 +9,26 @@ public class Main {
         double[] mass2 = {1.57, 7.654, 9.986};
         int[] mass3 = {5, 89, 65, 77, 23, 32};
 
-        // Массивы. Часть 1. Задание 2
-        System.out.println("Массивы. Часть 1. Задание 2");
-        for (int i = 0; i < mass.length; i++) {
+        // Массивы. Часть 1. Задание 3
+        System.out.println("Массивы. Часть 1. Задание 3");
+
+        for (int i = mass.length-1; i >= 0; i--) {
             System.out.print(mass[i]);
-            if (i != mass.length - 1) {
+            if (i != 0) {
                 System.out.print(", ");
             }
         }
         System.out.println();
-        for (int a = 0; a < mass2.length; a++) {
+        for (int a = mass2.length-1; a >= 0; a--) {
             System.out.print(mass2[a]);
-            if (a != mass.length - 1) {
+            if (a != 0) {
                 System.out.print(", ");
             }
         }
         System.out.println();
-        for (int b = 0; b < mass3.length; b++) {
+        for (int b = mass3.length-1; b >= 0; b--) {
             System.out.print(mass3[b]);
-            if (b != mass3.length - 1) {
+            if (b != 0) {
                 System.out.print(", ");
             }
         }
